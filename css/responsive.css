@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+/*
+-----------------------------
+For 1280px or less
+-----------------------------
+*/
+@media screen and (max-width: 1280px) {
+
+}
+
+
+/*
+-----------------------------
+For 1024px or less
+-----------------------------
+*/
+@media screen and (max-width: 1024px) {
+
+}
+
+
+/*
+-----------------------------
+For 920px or less
+-----------------------------
+*/
+@media screen and (max-width: 920px) {
+
+    #header-inner .logo svg   { width: 75px; }
+
+    #cover #intro             { font-size:1.25em;  }
+    #cover #enter             { top: 60%;}
+
+
+}/*
+-----------------------------
+For 850px or less
+-----------------------------
+*/
+@media screen and (max-width: 850px) {
+
+
+    /** Mobile Settings**/
+    #header-inner                              { flex-flow: column-reverse wrap; padding-bottom: 35px; }
+
+    #header-inner .head                        { position: static; transform: none; margin-bottom:35px; text-align: center;}
+    body:not(#index) #header-inner h1 a        { width: 500px;  height: 45px; background-size: 80%;}
+    body:not(#index) #header-inner .sub-brand  { font-size: 1em; }
+    #header-inner .logo                        { position: static; }
+
+    #menu-btn                                  { display: block; text-align: center; font-size: 1.2em; font-weight: 600; margin-bottom:15px; cursor: pointer;  }
+    #menu-btn span::after                      { content:'+'; margin-left: 3px;}
+    .show-nav #menu-btn span::after            { content:'-'; }
+
+    #nav-inner .foldatble                      { position: static;left:unset; transform: unset;/* border: 1px solid red;*/}
+    #nav-inner .tools                          { position: static; right: unset; top: unset; justify-content: center;}
+    #nav-inner .tools .fb                      { display: none;}
+    #nav-inner > ul                            { display: block; max-height: 0; overflow: hidden; transition:all 1s;}
+    #nav-inner > ul > li:not(.tools)           { border:none;  margin-bottom: 3px;}
+    #nav-inner > ul ul                         { display: inline-block;}
+    #nav-inner > ul ul li                      { text-align: left; padding-left: 1.5em; }
+    #nav-inner  li.has-child span::after       { content:'+'; margin-left: 8px;}
+    #nav-inner  li.has-child:hover span::after { content:'-'; }
+    .show-nav #nav-inner > ul                  { max-height: 300px;  transition:all 2s;  }
+
+
+
+    /** Other Settings**/
+    #works #summary           { text-align: left;}
+    #work-list .sizer         { width: 5%;}
+    #work-list .grid-item     { width: 50%;}
+    #work-list  .db_width     { width: 50%;}
+
+    #detail #title            { padding-bottom: 20px;}
+
+    #footer-inner .copyright  { letter-spacing: .1em;}
+
+
+
+}
+
+
+/*
+-----------------------------
+For 768px or less
+-----------------------------
+*/
+@media screen and (max-width: 768px) {
+
+    #header-inner                              { padding-top: 35px; padding-bottom: 20px;}
+    #header-inner .head                        { margin-bottom: 25px; }
+    body:not(#index) #header-inner h1 a        { width: 450px;  height: 41px; background-size:unset;}
+    body:not(#index) #header-inner .sub-brand  {  font-size: .85em; }
+
+    #works #summary                            { margin-top: 20px;}
+    #cover #intro                              { font-size:1.2em; line-height: 1.7em;  }
+    #footer-inner		                       { padding-top: 10%; padding-bottom:  5%;}
+
+
+}
+
+/*
+-----------------------------
+For 640px or less
+-----------------------------
+*/
+@media screen and (max-width: 640px) {
+
+
+    h2                               { font-size: 1.4em;}
+    h3                               { font-size: 1.15em; }
+    #cover #intro                    { word-spacing: .2em;}
+    #works #summary                  {  font-size: 1.1em; line-height: 1.6em; margin-top: 12px;}
+
+    #detail .switch-proj-btn a       { font-size:1.1em; letter-spacing: .1em;}
+    #detail .masonry-grid .half-item { width: 100%;}
+    #detail .switch-proj-btn         { margin:30px 0 0 0;}
+}
+
+/*
+-----------------------------
+For 480px or less
+-----------------------------
+*/
+@media screen and (max-width: 480px) {
+
+    #header-inner h1             { margin-bottom: 12px; }
+    #header-inner h1 a           { width: 380px !important;  height: 35px !important; background-size: 85% !important; }
+
+    #cover #intro                { font-size:1.1em; }
+    #cover a#enter               { font-size: 1.15em; }
+
+    #work-list .grid-item        { width: 100%;}
+    #work-list  .db_width        { width: 100%;}
+
+    #detail #direct-back         { font-size: 1em;}
+    #detail #title               { padding: 15px 0;}
+    #detail #info                { text-align: left; width: 100%; font-size: 1em;}
+    #detail #detail-prev-button  { margin-right: 150px; }
+
+    #footer-inner .copyright     { font-size: 0.9em;}
+    #footer-inner .socialLinks a { font-size: 1.6em; }
+}
+
+
+
+
+/*
+-----------------------------
+For 440px or less
+-----------------------------
+*/
+@media screen and (max-width: 440px) {
+
+    #header-inner h1 a    {  width: 330px !important;  height: 27px !important;  }
+
+}
+
+
+
+
+
+/*
+-----------------------------
+For 360px or less
+-----------------------------
+*/
+
+@media screen and (max-width: 360px) {
+
+
+    h2       { font-size: 1.25em;}
+    h3       { font-size: 1.05em; }
+
+    #header-inner .logo svg { width: 65px; }
+    #menu-btn               { font-size: 1.1em;}
+    #nav-inner 		        { font-size: 1em;}
+
+    #cover a#enter          { font-size: 1em; }
+    #works #summary         { font-size: 1em;}
+
+    #footer-inner p         { font-size: 0.85em;}
+
+}
+
+
+
+@media screen and (max-width: 350px) {
+
+    #header-inner .head                 { display: none;}
+
+    #index #header-inner .logo          { display: block;}
+    #index #header-inner .logo svg path { fill:#fff;}
+
+}
