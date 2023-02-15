@@ -106,6 +106,8 @@ $csp_resources = array(
 	'*.vimeo.com',
 	'*.vimeocdn.com',
 	'*.jsdelivr.net',
+    '*.cloudflare.com',
+    'unpkg.com'
 );
 
 header("Strict-Transport-Security:max-age=63072000");

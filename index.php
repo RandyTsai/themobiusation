@@ -4,6 +4,8 @@ include_once('top.php');
 include_once(CONFIG_ADMIN_PATH.'gallery/meta.php');
 
 
+
+
 //SEO
 setMeta();
 ?>

@@ -30,8 +30,8 @@ define('CONFIG_SESSION_NAME', 		'__Secure-PHPSESSID');
 define('CONFIG_TITLE_MARKUP', 		'div');
 
 //Google recaptcha
-define('RECAPTCHA_SITE_KEY', 	'6LdGSdYZAAAAAAMVC6G7Xn_Mg6IEynQlfIBmtU8B');
-define('RECAPTCHA_SECRET_KEY', 	'6LdGSdYZAAAAAJoMTfPP6t-fibwbzuzgmw-dC2iQ');
+define('RECAPTCHA_SITE_KEY', 	'6Lfy6vQdAAAAAKuz6S7qMO383pesHSvTAie-Ft4g');
+define('RECAPTCHA_SECRET_KEY', 	'6Lfy6vQdAAAAAPshP0bwuaUVlAdxQdkraYwjGF1m');
 
 //Google analytics
 define('GA_ENABLED', 	false);
@@ -106,6 +106,9 @@ $csp_resources = array(
 	'*.vimeo.com',
 	'*.vimeocdn.com',
 	'*.jsdelivr.net',
+    '*.googletagmanager.com',
+    '*.cloudflare.com',
+    'unpkg.com'
 );
 
 header("Strict-Transport-Security:max-age=63072000");

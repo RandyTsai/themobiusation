@@ -1,6 +1,9 @@
 <?php
 $current_page = basename($_SERVER['PHP_SELF']);
 
+//如何讓parent li也亮起來
+//中文 的時候filter沒有作用  li也沒有active
+
 ?>
 
 <nav id="nav-wrapper" class="wrapper">

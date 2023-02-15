@@ -78,6 +78,7 @@ setMeta($project_cate_title);
                         //echo $imgSize[0].' and '.$imgSize[1];
 					?>
                     <div class="grid-item <?=$imgSize[0]>$imgSize[1]?'db_width':($imgSize[0]<$imgSize[1]?'db_height':'')?>">
+                                                <!-- just judge the class size 'db_width':'db_height':none  -->
                     	<div class="thumb"><a href="detail/<?=$row['id']?>"><img src="<?=$imgFolder.$row['path']?>" alt="<?=$title?>" /></a></div>
                         <div class="title upper_case"><?=$title?></div>
                     </div>

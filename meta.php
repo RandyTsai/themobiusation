@@ -1,3 +1,16 @@
+<!--Install DataLayer -->
+<script>
+    window.dataLayer = window.dataLayer || [];
+</script>
+<!--Install DataLayer -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NTD3WTB');</script>
+<!-- End Google Tag Manager -->
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <base href="<?=$current_site_root?>">
 
@@ -54,3 +67,4 @@
 <?php if(GA_ENABLED){ include_once(CONFIG_ADMIN_PATH.'analytics/analytics.php'); }?>
 <?php include_once('combine.php'); ?>
 <script src="script.js?update=20220301"></script> <!-- update=20220104-->
+
